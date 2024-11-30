@@ -21,10 +21,10 @@ function NavbarComponent({ className }: { className?: string }) {
     return (
         <div className={cn('fixed top-10 inset-x-0 max-w-2xl mx-auto z-50', className)}>
             <Menu setActive={setActive}>
-                <MenuItem setActive={setActive} active={active} item="About"></MenuItem>
-                <MenuItem setActive={setActive} active={active} item="Skills"></MenuItem>
-                <MenuItem setActive={setActive} active={active} item="Experience"></MenuItem>
-                <MenuItem setActive={setActive} active={active} item="Projects"></MenuItem>
+                <HoveredLink href="#about-me">About</HoveredLink>
+                <HoveredLink href="#experience">Experience</HoveredLink>
+                <HoveredLink href="#projects">Projects</HoveredLink>
+                <HoveredLink href="#skills">Skills</HoveredLink>
                 <MenuItem setActive={setActive} active={active} item="Social">
                     <div className="flex flex-col space-y-4 text-sm">
                         <HoveredLink href="https://github.com/tferdous17" rel="noopener noreferrer" target="_blank">
