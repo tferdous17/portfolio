@@ -1,7 +1,4 @@
 import { cn } from "@/lib/utils";
-import { useState } from "react";
-import { Icon } from "./evervault-card";
-import { TracingBeam } from "./tracing-beams";
 
 
 export const ProjectCard = ({ title, icon, description }: { title?: string; icon?: React.ReactNode; description?: string }) => {
