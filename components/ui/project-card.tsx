@@ -10,7 +10,7 @@ export const ProjectCard = ({ title, icon, description }: { title?: string; icon
             <div
                 className="group/card relative flex overflow-wrap rounded-3xl bg-transparent"
             >   
-                <div className="relative z-10 flex items-center justify-center gap-14 ml-3">
+                <div className="relative z-10 flex items-center justify-center gap-14 ml-6">
                     <div className="">
                         <span className="whitespace-wrap text-7xl">{icon}</span>
                     </div>
