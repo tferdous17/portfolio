@@ -1,7 +1,6 @@
 'use cilent';
 
 import { TracingBeam } from "../ui/tracing-beams";
-import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
 import { TypewriterEffectSmoothSmaller } from "../ui/typewriter-effect-smaller";
 
 const words = [
@@ -27,8 +26,8 @@ export function AboutMe() {
                     {/* <h1 className="text-2xl font-bold">Hello!</h1> */}
                     <TypewriterEffectSmoothSmaller words={words}/>
                     <div className="text-lg">
-                        My names Tasnim Ferdous. I'm a third-year computer science student at Farmingdale State College, NY, with a passion
-                        for building scalable and efficient backend systems. My primary focus, especially career-wise, is backend development where I'm pursuing interests
+                        My names Tasnim Ferdous. I&apos;m a third-year computer science student at Farmingdale State College, NY, with a passion
+                        for building scalable and efficient backend systems. My primary focus, especially career-wise, is backend development where I&apos;m pursuing interests
                         in <span style={{fontWeight: 900, color: "#bda2fa"}}>distributed systems</span>, <span style={{fontWeight: 900, color: "#bda2fa"}}>high-performance computing</span>, 
                         and <span style={{fontWeight: 900, color: "#bda2fa"}}>API development</span>. Alongside that, I also occasionally dabble in full-stack development.
                         <br></br>
@@ -37,7 +36,7 @@ export function AboutMe() {
                         have built an active community of 50+ members for those with a shared interest in A.I.
                         <br></br>
                         <br></br>
-                        When I'm not coding, you can find me going on long-distance runs, playing video games, traveling, or learning a new skill for fun (lately, creative coding).
+                        When I&apos;m not coding, you can find me going on long-distance runs, playing video games, traveling, or learning a new skill for fun (lately, creative coding).
                     </div>
                 </div>
             </TracingBeam>

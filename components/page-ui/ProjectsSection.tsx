@@ -1,11 +1,7 @@
 import React from 'react';
 
-import { HeroParallax } from '../ui/hero-paralax';
 import { ProjectCard } from '../ui/project-card';
-import { Icon } from '../ui/evervault-card';
-import Link from 'next/link';
 import { FaGolang, FaJava, FaPython } from 'react-icons/fa6';
-import { SiSpringboot } from 'react-icons/si';
 
 export function ProjectsSection() {
     return (
