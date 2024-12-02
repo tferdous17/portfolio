@@ -75,7 +75,7 @@ export const ProductItem = ({ title, description, href, src }: { title: string; 
         </Link>
     );
 };
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const HoveredLink = ({ children, ...rest }: any) => {
     return (
         <Link {...rest} className="flex items-center text-neutral-700 hover:text-neutral-400 dark:text-neutral-200">
