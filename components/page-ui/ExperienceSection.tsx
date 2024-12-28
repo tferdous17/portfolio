@@ -30,12 +30,12 @@ const experience = [
         title: 'Software Engineer Intern - ML Team',
         description: (
             <ul className="list-disc">
-                <li> Spearheaded the full stack development of a data analytics tool comprehensively profiling 11,500+ medical
-                device suites across the globe, utilizing Vue.js, TypeScript, and Node.js</li>
-                <li>Improved data processing pipeline performance by 22% using AWS Glue, optimizing ETL tasks to efficiently load
-                over 40 million surgical records into AWS S3.</li>
-                <li>Achieved 95%+ code coverage in full stack unit testing leveraging Vitest and Jest, and implemented a parallel
-                Bitbucket pipeline for automated CI/CD.</li>
+                <li>Led the full-stack development of an in-house data analytics tool comprehensively profiling and visualizing medical
+                device data from 11,000+ hospitals across the U.S., utilizing Vue, TypeScript, Node, and Python.</li>
+                <li>Optimized processing of 45 million surgical state records by 22% and streamlined data pipelines by using AWS Glue and
+                writing ETL scripts in Python in collaboration with senior engineers.</li>
+                <li>Achieved 95%+ code coverage in full stack unit testing leveraging Vitest and Jest, and designed a parallelized
+                CI/CD pipeline for automated build, test, and deployment processes.</li>
             </ul>
         ),
         badge: 'Arthrex | May - November 2024'
@@ -44,9 +44,9 @@ const experience = [
         title: 'Artificial Intelligence Club President',
         description: (
             <ul className="list-disc">
-                <li> Led 6 officers and built an active community of 55+ members, hosting over a dozen events with 70% average
-                turnout rate.</li>
-                <li> Partnered with Supporting Women in Computing (SWiC) to host a guest speaker on responsible A.I., boosting
+                <li>Built an active community of 60+ members on campus by leading a board of 5 officers, organizing bi-weekly
+                presentations and workshops with a 70% average turnout rate.</li>
+                <li>Partnered with Supporting Women in Computing (SWiC) to host a guest speaker on responsible A.I., boosting
                 attendance by 35%.</li>
             </ul>
         ),
@@ -56,7 +56,7 @@ const experience = [
         title: 'Computer Science Peer Tutor',
         description: (
             <ul className="list-disc">
-                <li> Tutored university-level programming courses to over 40 active students per semester, providing support for
+                <li>Tutored university-level programming courses to over 40 active students per semester, providing support for
                 subjects such as Java Programming I & II and Data Structures and Algorithms.</li>
                 <li>Created 100+ personalized practice questions to reinforce key concepts and established a 90% student return rate
                 across semesters.</li>
