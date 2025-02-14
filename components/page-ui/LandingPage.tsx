@@ -35,7 +35,7 @@ export default function LandingPage() {
       <p className="text-xs text-neutral-600 dark:text-neutral-200 sm:text-base  ">Hello, I&apos;m Tasnim! A computer science student and</p>
       <TypewriterEffectSmooth words={words}/>
       <div className="z-30 flex flex-col items-center space-x-0 space-y-4 md:flex-row md:space-x-4 md:space-y-0">
-        <Link href="https://drive.google.com/file/d/1olCgIVSVgQ5c2qO7tWHxn070blF6nbH-/view?usp=sharing" target="_blank">
+        <Link href="https://drive.google.com/file/d/1R89p1LXks_6jJ-bTWvNVBPzzUBmuZZs8/view?usp=sharing" target="_blank">
             <Button>Download CV</Button>
         </Link>
         <Link href="https://github.com/tferdous17" target="_blank">
