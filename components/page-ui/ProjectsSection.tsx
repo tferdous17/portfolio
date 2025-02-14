@@ -33,6 +33,12 @@ export function ProjectsSection() {
 
 const projects = [
     {
+        title: 'Flux',
+        // link: 'https://github.com/tferdous17/genesis',
+        icon: <FaJava />,
+        description: 'Flux is a work-in-progress distributed event streaming and message queue platform engineered for high throughput, maximal scalability, and fault-tolerance.'
+    },
+    {
         title: 'genesis',
         // link: 'https://github.com/tferdous17/genesis',
         icon: <FaGolang />,
