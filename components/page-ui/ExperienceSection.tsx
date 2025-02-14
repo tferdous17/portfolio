@@ -30,10 +30,10 @@ const experience = [
         title: 'Software Engineer Intern - ML Team',
         description: (
             <ul className="list-disc">
-                <li>Led the full-stack development of an in-house data analytics tool comprehensively profiling and visualizing medical
-                device data from 11,000+ hospitals across the U.S., utilizing Vue, TypeScript, Node, and Python.</li>
-                <li>Optimized processing of 45 million surgical state records by 22% and streamlined data pipelines by using AWS Glue and
-                writing ETL scripts in Python in collaboration with senior engineers.</li>
+                <li>Led the full stack development of an in-house data analytics platform and built RESTful APIs for the retrieval
+                and near real-time visualization of data from 11,000+ medical device suites by using Vue, TypeScript, Chart.js, ApexCharts.</li>
+                <li>Developed a secure backend with Node.js and Express, efficiently handling 45 million medical device-emitted
+                records from AWS S3 and Athena, with integrated JWT authentication and RBAC authorization middleware.</li>
                 <li>Achieved 95%+ code coverage in full stack unit testing leveraging Vitest and Jest, and designed a parallelized
                 CI/CD pipeline for automated build, test, and deployment processes.</li>
             </ul>
@@ -45,9 +45,9 @@ const experience = [
         description: (
             <ul className="list-disc">
                 <li>Built an active community of 60+ members on campus by leading a board of 5 officers, organizing bi-weekly
-                presentations and workshops with a 70% average turnout rate.</li>
-                <li>Partnered with Supporting Women in Computing (SWiC) to host a guest speaker on responsible A.I., boosting
-                attendance by 35%.</li>
+                presentations and coding workshops with a 70% average turnout rate.</li>
+                <li>Hosted a machine learning engineer and Cornell-alumni guest speaker on responsible A.I. to over 130 attendees
+                through collaboration with FSC’s Supporting Women in Computing club and campus-wide event promotion.</li>
             </ul>
         ),
         badge: 'Farmingdale State College | December 2023 - Present'
@@ -56,10 +56,10 @@ const experience = [
         title: 'Computer Science Peer Tutor',
         description: (
             <ul className="list-disc">
-                <li>Tutored university-level programming courses to over 40 active students per semester, providing support for
-                subjects such as Java Programming I & II and Data Structures and Algorithms.</li>
-                <li>Created 100+ personalized practice questions to reinforce key concepts and established a 90% student return rate
-                across semesters.</li>
+                <li>Tutored university-level programming courses to over 40 active students per semester, providing personalized
+                support for subjects such as Java Programming I and II, and Data Structures and Algorithms.</li>
+                <li>Created over 100 custom practice questions and 3 comprehensive mock exams across three courses to reinforce
+                key computer science concepts for students while improving problem-solving skills and exam performance.</li>
             </ul>
         ),
         badge: 'Farmingdale State College | August 2023 - May 2024'
